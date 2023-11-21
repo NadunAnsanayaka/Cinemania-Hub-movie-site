@@ -19,7 +19,7 @@ function App() {
 
  //  Movie Search 
  const handleSearch =(e)=>{
-  e.preventDefault()
+   e.preventDefault()    //prevent  reload page when submiting form
   fetch(API_search+ term)
   .then(res=> res.json())
   .then(data =>setMovies(data.results))

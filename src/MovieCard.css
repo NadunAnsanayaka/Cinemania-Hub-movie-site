@@ -52,6 +52,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     transition: box-shadow 0.3s ease-in-out;
+
 }
 
 .card:hover {
@@ -74,6 +75,8 @@
 }
 
 .title {
+    display: block;
+    box-sizing: border-box;
     font-size: 1.2rem;
     font-weight: bold;
     color: #ecf0f1; /* Clouds */
@@ -83,6 +86,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     max-height: 3.6rem; /* Adjusted maximum height for title */
+    
 }
 
 .vote {
