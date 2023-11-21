@@ -17,11 +17,9 @@ function App() {
   .then(data =>setMovies(data.results))
  },[])
 
+ //  Movie Search 
  const handleSearch =(e)=>{
   e.preventDefault()
-
-//  Movie Search 
-
   fetch(API_search+ term)
   .then(res=> res.json())
   .then(data =>setMovies(data.results))

@@ -1,4 +1,4 @@
-.card{
+/* .card{
     max-height:25rem ;
     width: 13rem;
     margin: 1rem;
@@ -40,4 +40,83 @@
 
 .title_overview{
     padding: 1rem 0;
+} */
+
+.card {
+    max-height: 25rem;
+    width: 13rem;
+    margin: 1rem;
+    background-color: #2c3e50; /* Midnight Blue */
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ecf0f1; /* Clouds */
+    margin: 0.5rem 0; /* Adjusted margin for better spacing */
+    text-align: center; /* Center the text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-height: 3.6rem; /* Adjusted maximum height for title */
+}
+
+.vote {
+    color: #f39c12; /* Orange */
+    font-size: 1rem;
+    margin-top: 0.2rem; /* Adjusted margin for better alignment */
+}
+
+.overview {
+    transform: translateY(-100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #34495e; /* Wet Asphalt */
+    overflow: auto;
+    transition: 0.3s ease-in-out;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.card:hover .overview {
+    transform: translateY(0%);
+}
+
+.title_overview {
+    padding: 1rem;
+    font-size: 1.1rem; /* Adjusted font size for better readability */
+    font-weight: bold;
+    color: #ecf0f1; /* Clouds */
+}
+
+.overview_info {
+    padding: 0.5rem 1rem;
+    color: #bdc3c7; /* Silver */
 }
