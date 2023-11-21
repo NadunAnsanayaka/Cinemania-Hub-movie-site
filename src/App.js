@@ -20,6 +20,7 @@ function App() {
  const handleSearch =(e)=>{
   e.preventDefault()
 
+//  Movie Search 
 
   fetch(API_search+ term)
   .then(res=> res.json())
@@ -31,7 +32,7 @@ function App() {
     <div className="App">
       <div className='serch_nav'>
         <div>
-          <h1>Movies</h1>
+          <h1 className='title'>Movies</h1>
         </div>
 
         <div>
