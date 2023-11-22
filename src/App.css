@@ -25,6 +25,12 @@
     box-sizing: border-box;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .movies {
     display: flex;
     flex-wrap: wrap;
@@ -47,9 +53,10 @@
     background-color: #2980b9; /* Belize Hole - Darker */
 }
 
-.title {
-    font-size: 2rem; /* Larger font size for title */
-    font-weight: bold;
+
+
+.header_title{
+    font-size: 2rem; 
 }
 
 form {

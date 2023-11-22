@@ -96,7 +96,7 @@
 }
 
 .overview {
-    transform: translateY(-100%);
+    transform: translateY(100%);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -107,6 +107,8 @@
     transition: 0.3s ease-in-out;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
 }
 
 .card:hover .overview {

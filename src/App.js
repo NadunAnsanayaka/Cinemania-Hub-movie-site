@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import MovieCard from './MovieCard';
+import Logo from './component/Logo';
 
 function App() {
 
@@ -29,8 +30,9 @@ function App() {
   return (
     <div className="App">
       <div className='serch_nav'>
-        <div>
-          <h1 className='title'>Movies</h1>
+        <div className='header'>
+          <Logo/>
+          <h1 className='header_title'>Cinemania Hub</h1>
         </div>
 
         <div>

@@ -9,12 +9,11 @@ function MovieCard(props) {
   
 
     const TitleOver =(title)=>{
-      if (title.length>21){
+      if (title.length>20){
         return (title.substring(0, 18)+":")
       }else{
         return title
       }
-
 
 
     }
