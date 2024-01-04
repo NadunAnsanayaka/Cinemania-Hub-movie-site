@@ -20,10 +20,13 @@ function MovieCard(props) {
  
     return (
     <div className='card'>
+
+      {/* poster */}
         <div className='poster'>
             <img src={props.poster_path? API_IMG+props.poster_path : def_IMG } alt='movie banner'/>
         </div>
 
+      {/* Information */}
         <div className='info'>
             <p className='title'> {TitleOver(props.title)}</p>
             <p className='vote'>{props.vote_average}</p>
