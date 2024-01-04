@@ -2,6 +2,9 @@
 
 Cinemania Hub is a simple React application that allows users to discover and search for movies. It leverages [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api) to fetch movie data and display it in an intuitive and visually appealing way.
 
+![movie app ss](https://github.com/NadunAnsanayaka/Cinemania-Hub-movie-site/assets/85428478/49c206c4-9294-4033-8c5e-da61dd05147c)
+
+
 ## Features
 
 - **Discover Movies:** Get a list of popular movies when you first open the app.
