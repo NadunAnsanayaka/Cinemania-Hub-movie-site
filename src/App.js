@@ -35,7 +35,7 @@ function App() {
 
         <div>
           <form onSubmit={handleSearch}>
-            <input onChange={(e) => setTerm(e.target.value)} placeholder=" type here..."/>
+            <input onChange={(e) => setTerm(e.target.value)} placeholder=" Type here..."/>
             <button>Search</button>
           </form>
         </div>
